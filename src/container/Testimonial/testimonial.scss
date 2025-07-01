@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.testimonial__flex {
+  display: flex;
+  justify-content: center;
+}
 .app__testimonial-item {
     width: 60%;
     min-height: 320px;

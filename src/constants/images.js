@@ -25,9 +25,11 @@ import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 import profileMe from "../assets/me.png";
 import spotify from "../assets/spotify.png";
-
+import myProfile from '../assets/myProfile.png'
+import myLogo from '../assets/hill.png'
 export default {
   NextJs,
+  myLogo,
   profileMe,
   email,
   mobile,
@@ -40,6 +42,7 @@ export default {
   mu5,
   node,
   python,
+  myProfile,
   react,
   redux,
   sass,
