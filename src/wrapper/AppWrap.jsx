@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationDots, SocialMedia } from '../components';
 
 const currentYear = new Date().getFullYear()
-const name = "AL Drake"
+const name = "Hillary Owusu Ameyaw"
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
     return (

@@ -10,7 +10,9 @@ const Testimonial = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [testimonials, setTestimonials] = useState([]);
     const [brands, setBrands] = useState([]);
-
+  
+    console.log(testimonials);
+    
     const handleClick = (index) => {
         setCurrentIndex(index);
     };
@@ -39,6 +41,8 @@ const Testimonial = () => {
                             <div>
                                 <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
                                 <h5 className="p-text">{testimonials[currentIndex].company}</h5>
+                                <h5 className="p-text">{testimonials[currentIndex].Linkedin}</h5>
+                                <h5 className="p-text">{testimonials[currentIndex].Email}</h5>
                             </div>
                         </div>
                     </div>

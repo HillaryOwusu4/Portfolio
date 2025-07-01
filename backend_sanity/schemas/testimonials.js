@@ -8,6 +8,21 @@ export default {
             title:'Name',
             type: 'string'
         },
+        { 
+            name:'Email',
+            title:'email',
+            type: 'string'
+        },
+         { 
+            name:'Position',
+            title:'position',
+            type: 'string'
+        },
+        { 
+            name:'Linkedin',
+            title:'Linkedin',
+            type: 'url'
+        },
         {
             name:'company',
             title:'Company',
